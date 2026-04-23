@@ -243,12 +243,12 @@ export default function App() {
           
           <div className="flex-1 min-h-[400px] bg-neutral-800 border-4 border-white shadow-[8px_8px_0px_0px_rgba(255,99,33,1)] overflow-hidden relative">
             <iframe 
-               src="maps.google.com/3" 
-               className="absolute inset-0 w-full h-full border-0" 
-               allowFullScreen 
-               loading="lazy" 
-               referrerPolicy="no-referrer-when-downgrade"
-               title="JAM Club Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3113.435555469779!2d-9.151372223428988!3d38.71269717176378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19348002b7e7cd%3A0x77a77cebd3cc4e65!2sJam%20Club!5e0!3m2!1sen!2spt!4v1716315000000!5m2!1sen!2spt" 
+              className="absolute inset-0 w-full h-full border-0" 
+              allowFullScreen 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="JAM Club Location"
             ></iframe>
           </div>
         </div>
